@@ -33,7 +33,7 @@ To run the Electron Video App locally, follow these steps:
    
    ```
 ## Demo
-[](video-to-gif.gif)
+![](video-to-gif.gif)
 
 ## Usage
 
