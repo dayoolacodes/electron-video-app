@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="img-src 'self' data:; default-src 'self'; script-src 'self'"
+    />
+    <title>Hello 😅!</title>
+  </head>
+  <body>
+    <h1>Hello There!</h1>
+    <!-- We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>. -->
+    Cross platform video conferencing desktop app made with Electron
+    <div class="container">
+      <video autoplay width="400" height="300" id="camera"></video>
+      <button id="capture-img">Capture</button>
+      <img id="image" width="400" height="300" />
+    </div>
+    <script src="camera.js"></script>
+  </body>
+</html>
