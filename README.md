@@ -32,6 +32,9 @@ To run the Electron Video App locally, follow these steps:
    npm start
    
    ```
+## Demo
+[](https://raw.githubusercontent.com/dayoolacodes/electron-video-app/main/video-to-gif.gif)
+
 ## Usage
 
 Once the application is running, you can:
